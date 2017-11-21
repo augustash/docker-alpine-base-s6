@@ -4,9 +4,22 @@ This file contains all software versions used within a version of the image itse
 
 ## Latest
 
-Same as v1.0.0.
+Same as v1.0.1.
 
 Usage: `augustash/alpine-base-s6` or `augustash/alpine-base-s6:latest`.
+
+## v1.0.1
+
+- [alpinelinux](https://github.com/alpinelinux): v3.5
+- [s6-overlay](https://github.com/just-containers/s6-overlay): v1.21.2.1
+- [confd](https://github.com/kelseyhightower/confd/): v0.14.0
+
+*Improvements:*
+
+- Updates s6-overlay and confd.
+- Changes how `ash` directory ownership is set due to s6-overlay execution order.
+
+Usage: `augustash/alpine-base-s6:1.0.1`.
 
 ## v1.0.0
 

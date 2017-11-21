@@ -6,7 +6,8 @@
 
 ## Versions
 
-- `1.0.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/1.0.0/Dockerfile)
+- `1.0.1`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/1.0.1/Dockerfile)
+- `1.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/1.0.0/Dockerfile)
 
 [See VERSIONS.md for image contents.](https://github.com/augustash/docker-alpine-base-s6/blob/master/VERSIONS.md)
 
@@ -17,6 +18,13 @@ To build the Docker image, clone the repository and from within the project dire
 ```bash
 docker-compose build
 ```
+
+### Environment Variables
+
+The following variables can be set and will change how the container behaves. You can use the `-e` flag, an environment file, or your Docker Compose file to set your preferred values. The default values are shown:
+
+- `PUID`=501
+- `PGID`=1000
 
 ## Push the Image
 

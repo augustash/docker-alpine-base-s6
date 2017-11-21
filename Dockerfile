@@ -1,8 +1,8 @@
 FROM augustash/alpine-base:1.0.0
 
 # environment
-ENV VERSION_S6="1.20.0.0"
-ENV VERSION_CONFD="0.13.0"
+ENV VERSION_S6="1.21.2.1"
+ENV VERSION_CONFD="0.14.0"
 
 # packages & configure
 RUN apk-install s6 s6-portable-utils && \
