@@ -1,9 +1,9 @@
-FROM augustash/alpine-base:1.0.0
+FROM augustash/alpine-base:2.0.0
 
 # environment
 ENV PUID="501"
 ENV PGID="1000"
-ENV VERSION_S6="1.21.2.1"
+ENV VERSION_S6="1.21.2.2"
 ENV VERSION_CONFD="0.14.0"
 
 # packages & configure
