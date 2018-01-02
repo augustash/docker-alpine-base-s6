@@ -4,9 +4,20 @@ This file contains all software versions used within a version of the image itse
 
 ## Latest
 
-Same as v1.0.2.
+Same as v2.0.0.
 
 Usage: `augustash/alpine-base-s6` or `augustash/alpine-base-s6:latest`.
+
+## v2.0.0
+
+- [alpinelinux](https://github.com/alpinelinux): v3.7
+- [s6-overlay](https://github.com/just-containers/s6-overlay): v1.21.2.2
+
+*Improvements:*
+
+- Updates to Alpine Linux and s6-overlay.
+
+Usage: `augustash/alpine-base-s6:2.0.0`.
 
 ## v1.0.2
 
