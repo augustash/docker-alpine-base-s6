@@ -1,4 +1,4 @@
-FROM augustash/alpine-base:2.0.0
+FROM augustash/alpine-base:3.0.0
 
 # environment
 ENV PUID="501"
