@@ -3,8 +3,8 @@ FROM augustash/alpine-base:2.0.0
 # environment
 ENV PUID="501"
 ENV PGID="1000"
-ENV VERSION_S6="1.21.2.2"
-ENV VERSION_CONFD="0.14.0"
+ENV VERSION_S6="1.21.4.0"
+ENV VERSION_CONFD="0.16.0"
 
 # packages & configure
 RUN apk-install s6 s6-portable-utils && \
