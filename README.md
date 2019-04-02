@@ -6,7 +6,8 @@
 
 ## Versions
 
-- `3.0.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/3.0.0/Dockerfile)
+- `4.0.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/4.0.0/Dockerfile)
+- `3.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/3.0.0/Dockerfile)
 - `2.1.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/2.1.0/Dockerfile)
 - `2.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/2.0.0/Dockerfile)
 - `1.0.2` [(Dockerfile)](https://github.com/augustash/docker-alpine-base-s6/blob/1.0.2/Dockerfile)

@@ -3,7 +3,7 @@ services:
   alpine-base-s6:
     build:
       context: .
-    image: augustash/alpine-base-s6
+    image: augustash/alpine-base-s6:4.0.0
     labels:
       - "com.augustash.description=August Ash Alpine Base S6-Overlay Image"
       - "com.augustash.development-only"
