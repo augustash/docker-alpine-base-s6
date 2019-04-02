@@ -4,9 +4,22 @@ This file contains all software versions used within a version of the image itse
 
 ## Latest
 
-Same as v3.0.0.
+Same as v4.0.0.
 
 Usage: `augustash/alpine-base-s6` or `augustash/alpine-base-s6:latest`.
+
+## v4.0.0
+
+- [alpinelinux](https://github.com/alpinelinux/docker-alpine/tree/v3.9): v3.9
+- [s6-overlay](https://github.com/just-containers/s6-overlay/tree/v1.22.1.0): v1.22.1.0
+- [confd](https://github.com/kelseyhightower/confd/tree/v0.16.0): v0.16.0
+
+*Improvements:*
+
+- Updates to Alpine Linux v3.9.
+- Updates to s6-overlay v1.22.1.0.
+
+Usage: `augustash/alpine-base-s6:4.0.0`.
 
 ## v3.0.0
 
